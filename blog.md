@@ -5,20 +5,34 @@
 | 这个作业属于哪个课程 | [202601 软件工程（福州大学 计算机与大数据学院）](https://edu.cnblogs.com/campus/fzu/202601SofwareEngineering) |
 | 这个作业要求在哪里 | [作业链接](https://edu.cnblogs.com/campus/fzu/202601SofwareEngineering/homework/16717) |
 | 这个作业的目标 | 使用 Python 和 AIGC 完成"一箭又一箭"小游戏 |
-| 学号 | XXXXXXXXX（请填写自己的学号） |
+| 学号 | 102401414 |
 | GitHub 仓库 | https://github.com/shukai123123/arrow-game |
 
 ---
 
 ## 一、项目展示
 
-- **开始界面**：标题、规则说明、"开始游戏"按钮。
-- **游戏界面**：棋盘 + 顶栏（当前关卡 / 剩余箭头 / 剩余失误）+ 重新开始按钮。
-- **通关界面**：半透明遮罩 + "本关通过" + "下一关"按钮。
-- **失败界面**：失误耗尽后红色提示 + "重新开始"按钮。
+**开始界面**（标题 + 规则说明 + 开始按钮）：
 
-> 说明：将 `shot_start.png`、`shot_play.png`、`shot_clear.png`、`shot_over.png` 插入此处即可。
-> 建议用录屏软件录制一段 10~20 秒的演示 GIF，依次展示：开始 → 点击可飞箭头（飞出动画）→ 点击被挡箭头（红色抖动）→ 清空过关 → 故意失误耗尽失败。
+![开始界面](https://raw.githubusercontent.com/shukai123123/arrow-game/main/shot_start.png)
+
+**游戏界面**（顶栏显示当前关卡 / 剩余箭头 / 剩余失误，右上角重新开始按钮）：
+
+![游戏界面](https://raw.githubusercontent.com/shukai123123/arrow-game/main/shot_play.png)
+
+**点击可飞箭头后**（箭头飞出消失，剩余箭头数更新）：
+
+![点击后](https://raw.githubusercontent.com/shukai123123/arrow-game/main/shot_play_after_click.png)
+
+**通关界面**（半透明遮罩 + "本关通过" + 下一关按钮）：
+
+![通关界面](https://raw.githubusercontent.com/shukai123123/arrow-game/main/shot_clear.png)
+
+**失败界面**（失误耗尽后红色提示 + 重新开始按钮）：
+
+![失败界面](https://raw.githubusercontent.com/shukai123123/arrow-game/main/shot_over.png)
+
+> 演示 GIF 可在运行游戏时用录屏软件录制一段 10~20 秒：依次展示开始 → 点击可飞箭头（飞出动画）→ 点击被挡箭头（红色抖动）→ 清空过关 → 故意失误耗尽失败。
 
 ## 二、项目介绍
 
