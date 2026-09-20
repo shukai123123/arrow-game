@@ -6,7 +6,7 @@
 | 这个作业要求在哪里 | [作业链接](https://edu.cnblogs.com/campus/fzu/202601SofwareEngineering/homework/16717) |
 | 这个作业的目标 | 使用 Python 和 AIGC 完成"一箭又一箭"小游戏 |
 | 学号 | XXXXXXXXX（请填写自己的学号） |
-| GitHub 仓库 | https://github.com/你的用户名/arrow-game（请替换为实际仓库链接） |
+| GitHub 仓库 | https://github.com/shukai123123/arrow-game |
 
 ---
 
